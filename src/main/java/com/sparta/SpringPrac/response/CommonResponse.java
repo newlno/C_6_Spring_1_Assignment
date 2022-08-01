@@ -1,4 +1,4 @@
-package com.sparta.SpringPrac.service.response;
+package com.sparta.SpringPrac.response;
 
 import lombok.Getter;
 import lombok.Setter;
