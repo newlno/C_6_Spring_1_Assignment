@@ -1,4 +1,4 @@
-package com.sparta.SpringPrac.domain.dto;
+package com.sparta.SpringPrac.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

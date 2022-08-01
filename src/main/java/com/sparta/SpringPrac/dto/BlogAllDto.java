@@ -1,6 +1,6 @@
-package com.sparta.SpringPrac.domain.dto;
+package com.sparta.SpringPrac.dto;
 
-import com.sparta.SpringPrac.domain.Blog;
+import com.sparta.SpringPrac.model.Blog;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -8,16 +8,15 @@ import java.time.LocalDate;
 
 @Getter
 @NoArgsConstructor
-public class BlogSearchDto {
+public class BlogAllDto {
     private String title;
     private String username;
     private LocalDate createdAt;
-    private String contents;
 
-    public BlogSearchDto(Blog Entity) {
-        this.title = Entity.getTitle();
+    public BlogAllDto(Blog Entity) {
         this.username = Entity.getUsername();
+        this.title = Entity.getTitle();
         this.createdAt = LocalDate.from(Entity.getCreatedAt());
-        this.contents = Entity.getContents();
     }
+
 }

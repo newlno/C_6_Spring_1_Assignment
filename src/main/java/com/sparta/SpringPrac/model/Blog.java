@@ -1,7 +1,7 @@
-package com.sparta.SpringPrac.domain;
+package com.sparta.SpringPrac.model;
 
-import com.sparta.SpringPrac.domain.dto.BlogRequestDto;
-import com.sparta.SpringPrac.domain.dto.BlogUpdataDto;
+import com.sparta.SpringPrac.dto.BlogRequestDto;
+import com.sparta.SpringPrac.dto.BlogUpdataDto;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 

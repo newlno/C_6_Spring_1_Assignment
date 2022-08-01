@@ -1,4 +1,4 @@
-package com.sparta.SpringPrac.domain;
+package com.sparta.SpringPrac.model;
 
 
 import lombok.Getter;
